@@ -5,15 +5,22 @@ body {
   background-color: #f0f0f0;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-between;
+.content {
+  
 }
 
 .landing-page,
-.portfolio-page {
+.portfolio-page, .about {
   padding: 20px;
   text-align: center;
+  margin-bottom: 100px;
+}
+
+iframe {
+  width: 600px;
+  height: 600px;
+}
+
+.main-photo {
+  height: 250px;
 }

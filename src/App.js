@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Use Routes and Route instead of Switch
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import PortfolioPage from './pages/PortfolioPage';
+import About from './pages/About';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import './CSS/App.css';
@@ -11,13 +12,13 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Routes>
-          {' '}
-          {/* Update Switch to Routes */}
-          <Route path="/" element={<LandingPage />} />{' '}
-          {/* Update to element prop */}
-          <Route path="/portfolio" element={<PortfolioPage />} />
-        </Routes>
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<LandingPage />} />
+              <Route path="/portfolio" element={<PortfolioPage />} />
+              <Route path="/about" element={<About />} />
+            </Routes>
+          </div>
         <NavBar />
       </div>
     </Router>
