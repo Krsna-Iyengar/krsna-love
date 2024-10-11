@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/krsna-love/static/css/main.34d0d8fc.css",
+    "main.js": "/krsna-love/static/js/main.a60d8488.js",
+    "static/media/PeacockFeather.jpeg": "/krsna-love/static/media/PeacockFeather.7b18352d837dc896df87.jpeg",
+    "static/media/BadriKrsna.jpeg": "/krsna-love/static/media/BadriKrsna.0eff82a0414466f0dc4b.jpeg",
+    "index.html": "/krsna-love/index.html",
+    "main.34d0d8fc.css.map": "/krsna-love/static/css/main.34d0d8fc.css.map",
+    "main.a60d8488.js.map": "/krsna-love/static/js/main.a60d8488.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34d0d8fc.css",
+    "static/js/main.a60d8488.js"
+  ]
+}
